@@ -1,0 +1,38 @@
+#Calculator {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    background-color: black;
+
+}
+
+#display{
+    margin: 10px;
+    width: 85%;
+    height: 25px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgb(60, 56, 56);
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: black;
+}
+
+.button-container :hover{
+    background-color: rgb(59, 59, 149);
+}
+
+h2{
+    color: blue;
+}

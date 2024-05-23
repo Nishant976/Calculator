@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="Calculator">
+      <input type="text" id="display" readonly />
+      <div class="button-container">
+        <button
+          class="button"
+          onclick="
+            inputvalue =''
+            document.querySelector('#display').value=inputvalue;
+            "
+        >
+          <h2>C</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '1'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+          <h2>1</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '2'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>2</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '+'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>+</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '3'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>3</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '4'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>4</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '-'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>-</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '5'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>5</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '6'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>6</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '*'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>*</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '7'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>7</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '8'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>8</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '/'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>/</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        let result=eval(inputvalue)
+        document.querySelector('#display').value=result;
+        inputvalue=result
+        "
+        >
+        <h2>=</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '9'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>9</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '0'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>0</h2>
+        </button>
+        <button
+          class="button"
+          onclick="
+        inputvalue = inputvalue + '.'
+        document.querySelector('#display').value=inputvalue;
+        "
+        >
+        <h2>.</h2>
+        </button>
+      </div>
+    </div>
+    <script>
+      let inputvalue = "";
+    </script>
+  </body>
+</html>
